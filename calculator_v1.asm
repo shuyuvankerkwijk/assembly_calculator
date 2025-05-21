@@ -173,7 +173,7 @@ COL4 EQU P3.0
 ; It works with both a default keypad or a modified keypad with the labels
 ; rotated 90 deg ccw.  The type of keypad is determined by SW0, which is bit SWA.0
 
-; HOW IT WORKS (shuyu added)
+; SIMPLE VERSION:
 ; set all rows low
 ; check all column inputs
 ; if all high, no key pressed
